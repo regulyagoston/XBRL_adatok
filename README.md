@@ -49,7 +49,8 @@ További hasznos források:
       - 12 klasszifikáció: [https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_12_ind_port.html]
       - 30 klasszifikáció: [https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_30_ind_port.html]
   - Yahoo adatok [https://finance.yahoo.com/]
-    - 'tidyquant' csomaggal elérhető    
+    - `tidyquant` csomaggal elérhető    
   - R-kódok cégek pénzügyi elemzésekhez [https://www.tidy-finance.org/]
   - R-csomag pénzügyi sorokkal való munkához: [https://business-science.github.io/tidyquant/]
-    - különösen: [https://business-science.github.io/tidyquant/articles/TQ01-core-functions-in-tidyquant.html] 
+    - különösen: [https://business-science.github.io/tidyquant/articles/TQ01-core-functions-in-tidyquant.html]
+  - R-kódolás általánosságban [https://github.com/gabors-data-analysis/da-coding-rstats]
