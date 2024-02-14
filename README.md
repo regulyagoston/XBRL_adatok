@@ -30,14 +30,14 @@ Ezt a reportot a [`codes/apple_example.R`](https://github.com/regulyagoston/XBRL
 
 Az adatok összegyűjtésében és tisztításában szerettem volna 1-2 szempontot adni ami segíti a munkát hogy ne kódolással menjen el az időtök.
 
-  - (`codes/collect_data_example.R`)[https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/collect_data_examp.R] segít a letöltött és kicsomagolt mappák tartalmának beolvasására
+  - [`codes/collect_data_example.R`](https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/collect_data_examp.R) segít a letöltött és kicsomagolt mappák tartalmának beolvasására
     - mivel az összes adat összefűzése valószínűleg nem fér be a memóriába (több mint 200+ millió adat), ezért fontos, hogy különböző szűrők segítségével előzetesen megrostáld az adatokat az elemzés céljától függően.
     - 4 példát ad a kód, ahol a type_gather változó megadásával különböző adatokat gyűjt össze a kód:
       - SVB - a Silicon Valley Bank összes elérhető adatát gyűjti össze
       - 10K - az összes éves jelentést gyűjti össze
       - 10K-Bank - az összes éves jelentést gyűjti össze a Bankok esetében (Fama-French 48 kategorizáció alapján)
       - MA - a beadott felvásárlási dokumentumokat gyűjti össze
--  (`codes/data_munging_example.R`)[https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/data_munging_examp.R] egy kezdetleges és nem végleges adattisztítást és átalakítást csinál az éves jelentéseket tartalmazó adattal
+-  [`codes/data_munging_example.R`](https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/data_munging_examp.R) egy kezdetleges és nem végleges adattisztítást és átalakítást csinál az éves jelentéseket tartalmazó adattal
   - fontos, hogy ez nem végleges, csak útmutató, de remélem segít elindulni a tisztítás és adatválogatás útján
 - A [zip_extractor.ipynb](https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/zip_extractor.ipynb) kicsomagolja a letöltött zip fájlokat. Ez egy python script, nem szükséges, ha kézzel kicsomagolod őket.
 - A [collect_XBRL_oneperiod.ipynb](https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/collect_XBRL_oneperiod.ipynb) egy egy periódusra írt python kód, ami összegyűjti és összefűzi az adatokat. Aki pythonban akar dolgozni annak egy jó kezdet, de az R kód teljesebb.
