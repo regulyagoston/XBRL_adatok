@@ -24,10 +24,10 @@ Példa az éves leadott jelentése az Apple Inc által benyújtott jelentés:
   - https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm
 
 Minden pirossal alá és felé húzott vonalú elem megjelenik az adatokban. Ezekre kattintva megjelenik ay XBRL formátumban mentett adat tulajdonságai.
-Ezt a reportot a codes/apple_example.R kód reprodukálja.
+Ezt a reportot a (`codes/apple_example.R`)[https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/apple_example.R] kód reprodukálja.
 
 
-Össze lehet gyűjteni az összes éves jelentést. Ezt a codes/collect_data_example.R mutatja. Itt az elérési utak átirása után a "type_gather" váltoyót "10K"-re kell állitani.
+Össze lehet gyűjteni az összes éves jelentést. Ezt a (`codes/collect_data_example.R`)[https://github.com/regulyagoston/XBRL_adatok/blob/main/codes/collect_data_examp.R] mutatja. Itt az elérési utak átirása után a `type_gather` váltoyót "10K"-re kell állitani.
 
 # További hasznos információk
 
