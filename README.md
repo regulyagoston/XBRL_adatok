@@ -65,6 +65,6 @@ További hasznos források:
   - Yahoo adatok [https://finance.yahoo.com/]
     - `tidyquant` csomaggal elérhető    
   - R-kódok cégek pénzügyi elemzésekhez https://www.tidy-finance.org/
-  - R-csomag pénzügyi sorokkal való munkához: https://business-science.github.io/tidyquant/
+  - `tidyquant` R-csomag pénzügyi sorokkal való munkához: https://business-science.github.io/tidyquant/
     - különösen: https://business-science.github.io/tidyquant/articles/TQ01-core-functions-in-tidyquant.html
   - R-kódolás általánosságban https://github.com/gabors-data-analysis/da-coding-rstats
