@@ -29,5 +29,25 @@ Ezt a reportot a codes/apple_example.R kód reprodukálja.
 
 # További hasznos információk
 
+SEC honlap, fontos részek:
+
+  - Cégkeresés [https://www.sec.gov/edgar/searchedgar/companysearch]
+  - CIK szám - adatok: [https://www.sec.gov/Archives/edgar/cik-lookup-data.txt]
+  - Letöltött adatok dimenziói: [https://www.sec.gov/files/aqfs.pdf]
+
+Beküldött jelentések/formok
+
   - 8-K form különböző nem tervezett eseményeket tartalmaz, ami az részvénytulajdonosok számára fontos lehet (pl: csőd, tőke átstruktúrálás, felvásárlás, stb.)
   - S-4 form a különböző felvásárlásokat és összeolvadásokat tartamazó dokumentum.
+
+További hasznos források:
+
+  - Fama-French iparági klasszifikáció: 
+      - 48 klasszifikáció: [https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_48_ind_port.html]
+      - 12 klasszifikáció: [https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_12_ind_port.html]
+      - 30 klasszifikáció: [https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_30_ind_port.html]
+  - Yahoo adatok [https://finance.yahoo.com/]
+    - 'tidyquant' csomaggal elérhető    
+  - R-kódok cégek pénzügyi elemzésekhez [https://www.tidy-finance.org/]
+  - R-csomag pénzügyi sorokkal való munkához: [https://business-science.github.io/tidyquant/]
+    - különösen: [https://business-science.github.io/tidyquant/articles/TQ01-core-functions-in-tidyquant.html] 
