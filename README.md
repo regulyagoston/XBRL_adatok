@@ -15,3 +15,19 @@ Bevezető anyagok az XBRL világába (angolul)
 - [SEC dokumentáció](https://www.sec.gov/files/aqfs.pdf)
 
 
+# Éves jelentés: 10-K
+
+Példa az éves leadott jelentése az Apple Inc által benyújtott jelentés:
+
+  - https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm
+
+Minden pirossal alá és felé húzott vonalú elem megjelenik az adatokban. Ezekre kattintva megjelenik ay XBRL formátumban mentett adat tulajdonságai.
+Ezt a reportot a codes/apple_example.R kód reprodukálja.
+
+
+Össze lehet gyűjteni az összes éves jelentést. Ezt a codes/collect_data_example.R mutatja. Itt az elérési utak átirása után a "type_gather" váltoyót "10K"-re kell állitani.
+
+# További hasznos információk
+
+  - 8-K form különböző nem tervezett eseményeket tartalmaz, ami az részvénytulajdonosok számára fontos lehet (pl: csőd, tőke átstruktúrálás, felvásárlás, stb.)
+  - S-4 form a különböző felvásárlásokat és összeolvadásokat tartamazó dokumentum.
