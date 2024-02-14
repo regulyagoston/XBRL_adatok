@@ -14,7 +14,7 @@ Bevezető anyagok az XBRL világába (angolul)
 - [XBRL honlap](https://xbrl.us/home/use/filings-database/)
 - [SEC dokumentáció](https://www.sec.gov/files/aqfs.pdf)
 - [Chen et al (2022): Predicting Future Earnings Changes Using Machine Learning and Detailed Financial Data](https://onlinelibrary.wiley.com/doi/full/10.1111/1475-679X.12429)
-  - Codes and more details](https://www.chicagobooth.edu/research/chookaszian/journal-of-accounting-research/online-supplements-and-datasheets/volume-60)
+  - [Codes and more details](https://www.chicagobooth.edu/research/chookaszian/journal-of-accounting-research/online-supplements-and-datasheets/volume-60)
 
 
 # Éves jelentés: 10-K
